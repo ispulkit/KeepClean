@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#6380a2"
+    
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fluper.webradic.keepcleanf.ViewTaskDetailsFromFeed">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Take Initiative"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:background="@drawable/circularbutton"
+                    android:textColor="#ffffff"
+        android:id="@+id/takeinit"
+        android:textSize="20dp" />
+    
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:background="@drawable/customimg"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/taskimg"/>
+    
+        <TextView android:text="Location"
+            android:layout_weight="1"
+                        android:textColor="#ffffff"
+            android:id="@+id/loctxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/commentstxt"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+                        android:textColor="#ffffff"
+            
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_weight="1"
+                        android:textColor="#ffffff"
+            android:id="@+id/email"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/uploadprog"
+                android:src="@drawable/ic_change_history_white_24dp"
+                android:layout_height="wrap_content"
+                android:tint="#f8f05d"
+                android:layout_width="wrap_content"/>
+            <View 
+                android:layout_width="15dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="#000000"/>
+            
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/ic_change_history_white_24dp"
+                android:layout_height="wrap_content"
+                                android:tint="#f8f05d"
+                
+                android:layout_width="wrap_content"/>
+            <View 
+                android:layout_width="15dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="#000000"/>
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/ic_change_history_white_24dp"
+                android:layout_height="wrap_content"
+                                                android:tint="#f8f05d"
+                
+                android:layout_width="wrap_content"/>
+            <View 
+                android:layout_width="15dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="#000000"/>
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/ic_change_history_white_24dp"
+                android:layout_height="wrap_content"
+                android:tint="#f8f05d"
+                android:layout_width="wrap_content"/>
+            <View 
+                android:layout_width="15dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="#000000"/>
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/ic_change_history_white_24dp"
+                android:layout_height="wrap_content"
+                android:tint="#f8f05d"
+                android:layout_width="wrap_content"/>
+            
+            
+        </LinearLayout>
+        <TextView  
+				android:layout_gravity="center_horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Initiatives"
+				android:textSize="20dp"
+				android:padding="10dp"
+				            
+            />
+        <ListView 
+            android:id="@+id/bidslistfinal"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:divider="@color/list_divider"
+            android:dividerHeight="1dp"
+            ></ListView>
+</LinearLayout>
+</ScrollView>

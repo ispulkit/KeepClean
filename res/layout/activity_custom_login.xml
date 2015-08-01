@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     android:background="#f1f1f1" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fluper.webradic.keepcleanf.CustomLogin" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+        <EditText 
+            android:ems="5"
+            android:layout_marginTop="20dp"
+            android:hint="Enter your name here"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/namesignup"
+            android:background="@drawable/loginedcustom"
+                    android:layout_weight="1"
+            />
+        
+        
+   
+        <EditText 
+            android:ems="5"
+            android:hint="Enter your Email id here"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+                    android:id="@+id/emailed"
+                    android:background="@drawable/loginedcustom"
+                    android:inputType="textEmailAddress"
+                    android:layout_weight="1"
+            />
+        
+        <EditText 
+            android:ems="5"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:background="@drawable/loginedcustom"
+            android:layout_marginTop="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/pwsignup"
+                    android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/loginokbutton"
+            android:text="Sign Up"
+            android:textColor="#ffffff" />
+    
+</LinearLayout>
+</ScrollView>

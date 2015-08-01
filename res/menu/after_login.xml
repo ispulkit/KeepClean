@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fluper.webradic.keepcleanf.AfterLogin" >
+
+    <item
+        android:id="@+id/logoutmenuitem"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/facebook"
+        android:title="Logout" android:visible="true"/>
+	 <item
+        android:id="@+id/profilemenubutton"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/facebooker"
+        android:title="Profile"
+         android:visible="true"/>
+    
+</menu>

@@ -1,0 +1,154 @@
+     <ScrollView 
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="#ffffff"
+          android:scrollbarStyle="outsideOverlay"
+         >
+      <GridLayout
+         android:background="#dee3e7"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:rowCount="5"
+          android:columnCount="2" >
+       <LinearLayout android:layout_width="fill_parent"
+           android:layout_height="400dp"
+            android:layout_column="0"
+      		    android:layout_row="1"
+           android:orientation="horizontal">
+           <LinearLayout android:orientation="vertical"
+               android:layout_width="400dp"
+               android:layout_weight="1"
+               android:layout_height="400dp">
+      		<RelativeLayout 
+      		    android:layout_margin="10dp"
+      		    android:background="@drawable/customimg"
+      		    android:layout_width="wrap_content"
+      		     android:padding="10dp"
+      		    android:layout_height="wrap_content"
+      		    android:layout_weight="1"
+      		    >
+      		<ImageView 
+      		    android:layout_width="400dp"
+      		    android:layout_height="150dp"
+      		   
+      		    android:id="@+id/jdas"
+      		    android:scaleType="centerCrop"
+      		    android:adjustViewBounds="true"
+      		    />
+      		<TextView 
+      		   android:textColor="#ffffff"
+      		    android:background="#BF000000"
+      		    android:layout_width="fill_parent"
+      		    android:layout_height="wrap_content"
+      		    android:text="Hulala
+      		    akaslkjlja
+      		    asfaskfasljs; ; ;c s cksm c, "
+      		    android:singleLine="true"
+      		    android:layout_alignParentLeft="true"
+      		         		    android:gravity="center_horizontal"
+      		    />
+      		
+      		</RelativeLayout>
+      		<RelativeLayout 
+      		    android:layout_margin="10dp"
+      		    android:background="@drawable/customimg"
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:padding="10dp"
+      		    android:layout_weight="1"
+      		    >
+      		<ImageView 
+      		    android:layout_width="250dp"
+      		    android:background="@drawable/customimg"
+      		    android:layout_height="250dp"
+      		    android:id="@+id/jdas5"
+      		    android:scaleType="centerCrop"
+      		    android:adjustViewBounds="true"
+      		   
+      		    />
+      		<TextView 
+      		    android:textColor="#ffffff"
+      		    android:background="#BF000000"
+      		    android:layout_width="fill_parent"
+      		    android:layout_height="wrap_content"
+      		    android:text="Hulala
+      		    akaslkjlja
+      		    asfaskfasljs; ; ;c s cksm c, "
+      		    android:singleLine="true"
+      		    android:layout_alignParentLeft="true"
+      		         		    android:gravity="center_horizontal"
+      		    />
+      		
+      		</RelativeLayout>
+           </LinearLayout>
+           <LinearLayout android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               >
+      		 <RelativeLayout 
+      		      android:layout_margin="10dp"
+      		    android:background="@drawable/customimg"
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:padding="10dp"
+      		    android:layout_weight="1"
+      		    >
+      		 <ImageView
+               android:id="@+id/jdas2"
+               android:background="@drawable/customimg"
+               android:layout_width="fill_parent"
+               android:layout_height="400dp"
+               android:layout_gravity="left|center_vertical"
+               android:adjustViewBounds="true"
+               android:scaleType="centerCrop" />
+      		 <TextView 
+      		    android:textColor="#ffffff"
+      		    android:background="#BF000000"
+      		    android:layout_width="fill_parent"
+      		    android:layout_height="wrap_content"
+      		    android:text="Hulala
+      		    akaslkjlja
+      		    asfaskfasljs; ; ;c s cksm c, "
+      		    android:singleLine="true"
+      		    android:layout_alignParentLeft="true"
+      		         		    android:gravity="center_horizontal"
+      		    />
+      		 </RelativeLayout>
+      		  <RelativeLayout 
+      		      android:layout_margin="10dp"
+      		    android:background="@drawable/customimg"
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:padding="10dp"
+      		    android:layout_weight="1"
+      		    >
+      		 <ImageView
+               android:id="@+id/jdaspur"
+               android:background="@drawable/customimg"
+               android:layout_width="fill_parent"
+               android:layout_height="400dp"
+               android:layout_gravity="left|center_vertical"
+               android:adjustViewBounds="true"
+               android:scaleType="centerCrop" />
+      		 <TextView 
+      		    android:textColor="#ffffff"
+      		    android:background="#BF000000"
+      		    android:layout_width="fill_parent"
+      		    android:layout_height="wrap_content"
+      		    android:text="Hulala
+      		    akaslkjlja
+      		    asfaskfasljs; ; ;c s cksm c, "
+      		    android:singleLine="true"
+      		    android:layout_alignParentLeft="true"
+      		         		    android:gravity="center_horizontal"
+      		    />
+      		 </RelativeLayout>
+      		 
+      		 </LinearLayout>
+</LinearLayout>
+          
+	
+      </GridLayout>
+</ScrollView>
